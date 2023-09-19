@@ -1,0 +1,28 @@
+@mixin anclas{
+    background-color: rgb(214, 32, 0);
+    color: aliceblue;
+}
+
+.btnColor {
+    @include anclas;
+  }
+  
+  .colorBtn:hover {
+    background-color: brown;
+    font-size: 1.5rem;
+  }
+  
+  .tituloProductos {
+    background-color: rgb(236, 236, 236);
+    color: $color-rojo;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .max-width-100 {
+    max-width: 100%;
+    height: auto;
+  }

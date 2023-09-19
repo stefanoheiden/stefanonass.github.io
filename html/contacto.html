@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ballester Planet</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/estilo.css" />
+
+    <!-- HEADER -->
+  </head>
+  <body class="container-fluid">
+    <header class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="tamLogo" src="../img/logo.png" alt="LOGO DE LA MARCA BALLESTER PLANET" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reviews.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ubicacion.html">Ubicación</a>
+              <li class="nav-item">
+                <a class="nav-link" href="beneficios.html">Beneficios</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Nombre</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationCustom01"
+          value="Mark"
+          required
+        />
+        <div class="valid-feedback">Looks good!</div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Apellido</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationCustom02"
+          value="Otto"
+          required
+        />
+        <div class="valid-feedback">Looks good!</div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label"
+          >Nombre de Usuario</label
+        >
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+          <input
+            type="text"
+            class="form-control"
+            id="validationCustomUsername"
+            aria-describedby="inputGroupPrepend"
+            required
+          />
+          <div class="invalid-feedback">Elegí un nombre.</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="validationCustom03" class="form-label">Ciudad</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationCustom03"
+          required
+        />
+        <div class="invalid-feedback"></div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom04" class="form-label">Localidad</label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Elegí</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback"></div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom05" class="form-label">Zip</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationCustom05"
+          required
+        />
+        <div class="invalid-feedback"></div>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="invalidCheck"
+            required
+          />
+          <label class="form-check-label" for="invalidCheck">
+            Acepta nuestros terminos y condiciones
+          </label>
+          <div class="invalid-feedback"></div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+    </form>
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link px-2 text-body-secondary"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="contacto.html" class="nav-link px-2 text-body-secondary"
+              >Contacto</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="reviews.html" class="nav-link px-2 text-body-secondary"
+              >Reviews</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="ubicacion.html" class="nav-link px-2 text-body-secondary"
+              >Ubicación</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy; Ballester Planet</p>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
